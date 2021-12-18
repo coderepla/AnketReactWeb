@@ -7,19 +7,9 @@
 
 }
 .formContainer{
-background-color: yellow;
 width: 35%;
 border-style: solid;
 border-width: 0px 2px 0px 0px;
-}
-
-
-.teamFormContainer {
-  
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-
 }
 
 p {
@@ -27,23 +17,10 @@ p {
   margin-top: 8px;
 }
 
-.textContainer{
-  display: flex;
-  flex-direction: column;
-
-}
-
 .input {
   margin-top:8px;
   align-items: center;
   
-}
-
-.inputContainer {
-
-  flex-direction: column;
-  display: flex;
-  margin-left: 10px;
 }
 
 .App-logo {

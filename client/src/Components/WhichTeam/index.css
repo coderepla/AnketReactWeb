@@ -1,0 +1,20 @@
+.teamFormContainer {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+
+.textContainer{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.inputContainer {
+
+  flex-direction: column;
+  display: flex;
+  margin-left: 10px;
+}
