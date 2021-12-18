@@ -1,0 +1,14 @@
+type Query {
+  pollster(id: ID!): Pollster!
+  pollsters: [Pollster!]!
+}
+
+type Pollster {
+  id: ID!
+  name: String
+  lastname: String
+}
+
+type Mutation {
+  addPollster(name: String, lastname: String): Pollster!
+}

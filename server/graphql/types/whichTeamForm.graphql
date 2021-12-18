@@ -1,0 +1,26 @@
+type Query {
+  whichTeamForm(id: ID!): WhichTeamForm!
+  whichTeamForms: [WhichTeamForm!]!
+}
+
+type WhichTeamForm {
+  name: String
+  lastname: String
+  birth: Int
+  gender: String
+  team: String
+  explanation: String
+  pollster: Pollster!
+}
+
+type Mutation {
+  addWhichTeamForm(
+    name: String
+    lastname: String
+    birth: Int
+    gender: String
+    team: String
+    explanation: String
+    pollsterID: ID!
+  ): WhichTeamForm!
+}

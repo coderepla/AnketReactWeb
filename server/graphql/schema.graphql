@@ -1,0 +1,5 @@
+#import Query from './types/whichTeamForm.graphql'
+#import Mutation from './types/whichTeamForm.graphql'
+
+#import Query from './types/pollster.graphql'
+#import Mutation from './types/pollster.graphql'
