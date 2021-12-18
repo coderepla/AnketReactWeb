@@ -1,14 +1,16 @@
 const { ApolloServer, gql } = require("apollo-server");
 const { importSchema } = require("graphql-import");
+
 require("dotenv").config();
 
 //models
 const WhichTeamForm = require('./models/WhichTeamForm')
 const Pollster = require('./models/Pollster')
 
+// resolvers
 const resolvers = require("./graphql/resolves");
 
-const dbconnect = require("./db")();
+dbconnect = require("./db")();
 
 const server = new ApolloServer({
   typeDefs: importSchema('./graphql/schema.graphql'),
