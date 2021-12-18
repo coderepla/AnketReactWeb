@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 
-// const uri = `mongodb+srv://${process.env.db_user}:${process.env.db_password}@cluster0.59nh2.mongodb.net/${process.env.db_host}?retryWrites=true&w=majority`;
 const {
     DB_USER,
     DB_HOST,
